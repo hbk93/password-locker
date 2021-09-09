@@ -20,4 +20,7 @@ class User:
     self.email = email
 
   def save_user_information(self):
+    '''
+    save_user_information methods adds new user information at the end of the list
+    '''
     User.user_details.append(self)
