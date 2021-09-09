@@ -4,5 +4,13 @@ class User:
   '''
   
   def __init__ (self,first_name,last_name,phone_number,email):
-
+    '''
+    __init__ method that helps define properties
+    
+    Args: 
+        first_name: User's first name
+        last_name: User's last name
+        phone_number: User's phone number
+        email: User's email address
+    '''
 
