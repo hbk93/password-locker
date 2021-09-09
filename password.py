@@ -2,7 +2,8 @@ class User:
   '''
   Class that generates new instances of user
   '''
-  
+  user_details = []
+
   def __init__ (self,first_name,last_name,phone_number,email):
     '''
     __init__ method that helps define properties
@@ -17,3 +18,6 @@ class User:
     self.last_name = last_name
     self.phone_number = phone_number
     self.email = email
+
+  def save_user_information(self):
+    User.user_details.append(self)
