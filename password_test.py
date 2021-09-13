@@ -32,7 +32,7 @@ class TestUser(unittest.TestCase):
 
   def test_save_multiple_user(self):
     '''
-    test_save_multiple_user to check if we can save mutiple user objects to the user details list
+      test_save_multiple_user to check if we can save mutiple user objects to the user details list
     '''
 
 if __name__ == '__main__':
