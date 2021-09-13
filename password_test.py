@@ -28,7 +28,7 @@ class TestUser(unittest.TestCase):
     test_save_contact test case to test if the user object is saved into the user details list
     '''
     self.new_user.save_user_information()
-    
+    self.assertEqual(len(User.user_details), 1)
 
 if __name__ == '__main__':
   unittest.main()
