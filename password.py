@@ -29,4 +29,4 @@ class User:
     '''
     delete_user method removes previously saved user from the list
     '''
-    pass
+    User.user_details.remove(self)
