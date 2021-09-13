@@ -24,3 +24,9 @@ class User:
     save_user_information methods adds new user information at the end of the list
     '''
     User.user_details.append(self)
+
+  def delete_user(self):
+    '''
+    delete_user method removes previously saved user from the list
+    '''
+    pass
