@@ -35,7 +35,7 @@ class TestUser(unittest.TestCase):
     test_save_multiple_user to check if we can save mutiple user objects to the user details list
     '''
     self.new_user.save_user_information()
-    
+    test_user = User("John","doe","0712345678","jd@ms.com")
     
     
 
