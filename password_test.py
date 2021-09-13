@@ -45,5 +45,8 @@ class TestUser(unittest.TestCase):
     test_user.save_user_information()
     self.assertEqual(len(User.user_details), 2)
 
+  def test_delete_user(self):
+    pass
+
 if __name__ == '__main__':
   unittest.main()
